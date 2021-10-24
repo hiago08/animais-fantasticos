@@ -16,5 +16,8 @@
     "eslint-plugin-import": "^2.25.2",
     "webpack": "^5.59.1",
     "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0"
   }
 }
