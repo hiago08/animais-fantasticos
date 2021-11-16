@@ -16,7 +16,9 @@
 }
 
 .modal {
-  min-width: 250px;
+  box-sizing: border-box;
+  width: 80vw;
+  max-width: 400px;
   background: #faf6ed;
   padding: 40px;
   border: 5px solid #fb5;
@@ -45,12 +47,10 @@
   right: -15px;
   position: absolute;
   border-radius: 10px;
-  font-weight: bold;
   border: none;
-  background: #e54;
+  background: #e54 url(../img/fechar.svg) no-repeat center center;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  color: #faf6ed;
 }
 
 .modal label {
